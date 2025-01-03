@@ -19,3 +19,4 @@ set_bearer <- function() {
   ui_info("1. Add line: TWITTER_BEARER=YOURTOKENHERE to .Renviron on new line, replacing YOURTOKENHERE with  actual bearer token")
   ui_info("2. Restart R")
 }
+

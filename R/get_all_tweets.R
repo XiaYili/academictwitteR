@@ -33,9 +33,9 @@
 #'
 #' @examples
 #' \dontrun{
-#' bearer_token <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#' bearer_token <- "AAAAAAAAAAAAAAAAAAAAAA1axwEAAAAAng7ZSNEMkJWce1xsrQznZSEiKRc%3D4YgmAHTtmdHNVkAUR7UYbEuyMEO0psTQKhCCBZBYLQ4gNPyd06"
 #' 
-#' get_all_tweets(query = "BLM", 
+#' get_all_tweets(query = "❤", 
 #'                start_tweets = "2020-01-01T00:00:00Z", 
 #'                end_tweets = "2020-01-05T00:00:00Z", 
 #'                bearer_token = get_bearer(), 
@@ -53,9 +53,9 @@
 #'                bearer_token = get_bearer(), 
 #'                n = 1500, 
 #'                conversation_id = "1392887366507970561")
-#' }
+#'}
 get_all_tweets <-
-  function(query = NULL,
+  function(query = "❤",
            start_tweets,
            end_tweets,
            bearer_token = get_bearer(),
@@ -106,3 +106,4 @@ get_all_tweets <-
     get_tweets(params = params, endpoint_url = endpoint_url, n = n, file = file, bearer_token = bearer_token, 
                export_query = export_query, data_path = data_path, bind_tweets = bind_tweets, verbose = verbose)
  }
+

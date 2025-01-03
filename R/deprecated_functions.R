@@ -577,3 +577,4 @@ get_geo_tweets <-
     lifecycle::deprecate_soft("0.2.0", "get_geo_tweets()", details = "Please use `get_all_tweets(has:geo = TRUE)` instead.")
     get_all_tweets(query = query, start_tweets = start_tweets, end_tweets = end_tweets, bearer_token = bearer_token, n = n, file = file, data_path = data_path, bind_tweets = bind_tweets, verbose = verbose,...)
   }
+

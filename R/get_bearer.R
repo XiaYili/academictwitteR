@@ -17,3 +17,4 @@ get_bearer <- function() {
   }
   return(bearer_token)
 }
+
